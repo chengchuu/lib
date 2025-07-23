@@ -16,6 +16,7 @@
 - [Font Awesome](#font-awesome)
 - [IE 兼容](#ie-兼容)
 - [Sha1](#sha1)
+- [Zepto](#zepto)
 - [Mazey](#mazey)
 - [Confluence](#confluence)
 - [Tiny](#tiny)
@@ -211,6 +212,16 @@ JavaScript 链接：<https://i.mazey.net/lib/encode/js-sha1/0.6.0/sha1.min.js>
 ```
 
 官方文档：<https://github.com/emn178/js-sha1>
+
+## Zepto
+
+JavaScript 链接：<https://i.mazey.net/lib/zepto/default/zepto.min.js>
+
+代码：
+
+```html
+<script type="text/javascript" src="//i.mazey.net/lib/zepto/default/zepto.min.js"></script>
+```
 
 ## Mazey
 
