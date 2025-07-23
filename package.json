@@ -10,18 +10,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cheng413/lib.git"
+    "url": "git+https://github.com/chengchuu/lib.git"
   },
   "author": {
     "name": "Cheng",
     "email": "mazeyqian@gmail.com",
-    "url": "https://github.com/cheng413"
+    "url": "https://github.com/chengchuu"
   },
   "license": "GPL-2.0",
   "bugs": {
-    "url": "https://github.com/cheng413/lib/issues"
+    "url": "https://github.com/chengchuu/lib/issues"
   },
-  "homepage": "https://github.com/cheng413/lib#readme",
+  "homepage": "https://github.com/chengchuu/lib#readme",
   "dependencies": {
     "terser": "^5.17.7",
     "uglifycss": "0.0.29"
