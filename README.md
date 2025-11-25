@@ -25,7 +25,7 @@
 ## Install
 
 ```bash
-git clone https://github.com/mazeyqian/lib.git
+git clone https://github.com/chengchuu/lib.git
 ```
 
 <!-- Official - Begin -->
