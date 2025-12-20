@@ -25,142 +25,142 @@
 ## Install
 
 ```bash
-git clone https://github.com/mazeyqian/lib.git
+git clone https://github.com/chengchuu/lib.git
 ```
 
 <!-- Official - Begin -->
 
 ## jQuery
 
-链接：
+链接:
 
-- v1.9.1：<https://i.mazey.net/lib/jquery/1.9.1/jquery.min.js>
-- v2.1.1：<https://i.mazey.net/lib/jquery/2.1.1/jquery.min.js>
-- v3.1.1：<https://i.mazey.net/lib/jquery/3.1.1/jquery.min.js>
+- v1.9.1: <https://i.mazey.net/lib/jquery/1.9.1/jquery.min.js>
+- v2.1.1: <https://i.mazey.net/lib/jquery/2.1.1/jquery.min.js>
+- v3.1.1: <https://i.mazey.net/lib/jquery/3.1.1/jquery.min.js>
 
-代码：
+代码:
 
 ```html
 <script type="text/javascript" src="//i.mazey.net/lib/jquery/2.1.1/jquery.min.js"></script>
 ```
 
-英文官方文档：<https://api.jquery.com/>
+英文官方文档: <https://api.jquery.com/>
 
-中文非官方文档：<https://jquery.cuishifeng.cn/>
+中文非官方文档: <https://jquery.cuishifeng.cn/>
 
 ## Bootstrap 3.x
 
-CSS 链接：<https://i.mazey.net/lib/bootstrap/3.4.1/css/bootstrap.min.css>
+CSS 链接: <https://i.mazey.net/lib/bootstrap/3.4.1/css/bootstrap.min.css>
 
-JavaScript 链接：<https://i.mazey.net/lib/bootstrap/3.4.1/js/bootstrap.min.js>
+JavaScript 链接: <https://i.mazey.net/lib/bootstrap/3.4.1/js/bootstrap.min.js>
 
-代码：
+代码:
 
 ```html
 <link type="text/css" href="//i.mazey.net/lib/bootstrap/3.4.1/css/bootstrap.min.css" rel="stylesheet" />
 <script type="text/javascript" src="//i.mazey.net/lib/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 ```
 
-英文官方文档：<https://getbootstrap.com/docs/3.4/>
+英文官方文档: <https://getbootstrap.com/docs/3.4/>
 
-中文非官方文档：<https://v3.bootcss.com/>
+中文非官方文档: <https://v3.bootcss.com/>
 
 ## Vue 2.x
 
-链接：<https://i.mazey.net/lib/vue/2.6.12/vue.min.js>
+链接: <https://i.mazey.net/lib/vue/2.6.12/vue.min.js>
 
-代码：
+代码:
 
 ```html
 <script type="text/javascript" src="//i.mazey.net/lib/vue/2.6.12/vue.min.js"></script>
 ```
 
-官方文档：<https://v2.cn.vuejs.org/>
+官方文档: <https://v2.cn.vuejs.org/>
 
 ## Vuex
 
-链接：<https://i.mazey.net/lib/vuex/3.0.1/vuex.min.js>
+链接: <https://i.mazey.net/lib/vuex/3.0.1/vuex.min.js>
 
-代码：
+代码:
 
 ```html
 <script type="text/javascript" src="//i.mazey.net/lib/vuex/3.0.1/vuex.min.js"></script>
 ```
 
-官方文档：<https://v3.vuex.vuejs.org/zh/>
+官方文档: <https://v3.vuex.vuejs.org/zh/>
 
 ## Layer
 
-PC 链接：<https://i.mazey.net/lib/layer/layer.js>
+PC 链接: <https://i.mazey.net/lib/layer/layer.js>
 
-代码：
+代码:
 
 ```html
 <script type="text/javascript" src="//i.mazey.net/lib/layer/layer.js"></script>
 ```
 
-官方文档：<https://layui.dev/>
+官方文档: <https://layui.dev/>
 
-非官方文档：<https://layui.gitee.io/v2/docs/modules/layer.html>
+非官方文档: <https://layui.gitee.io/v2/docs/modules/layer.html>
 
 ---
 
-Mobile 链接：<https://i.mazey.net/lib/layer/mobile/layer.js>
+Mobile 链接: <https://i.mazey.net/lib/layer/mobile/layer.js>
 
-代码：
+代码:
 
 ```html
 <script type="text/javascript" src="//i.mazey.net/lib/layer/mobile/layer.js"></script>
 ```
 
-非官方文档：<https://www.layui.site/layer/mobile/>
+非官方文档: <https://www.layui.site/layer/mobile/>
 
 ## Swiper
 
-CSS 链接：<https://i.mazey.net/lib/swiper/9.3.2/swiper.min.css>
+CSS 链接: <https://i.mazey.net/lib/swiper/9.3.2/swiper.min.css>
 
-JavaScript 链接：<https://i.mazey.net/lib/swiper/9.3.2/swiper.min.js>
+JavaScript 链接: <https://i.mazey.net/lib/swiper/9.3.2/swiper.min.js>
 
-代码：
+代码:
 
 ```html
 <link type="text/css" href="//i.mazey.net/lib/swiper/9.3.2/swiper.min.css" rel="stylesheet" />
 <script type="text/javascript" src="//i.mazey.net/lib/swiper/9.3.2/swiper.min.js"></script>
 ```
 
-官方文档：<https://swiperjs.com/get-started>
+官方文档: <https://swiperjs.com/get-started>
 
 ## Lodash
 
-链接：<https://i.mazey.net/lib/lodash/4.17.21/lodash.min.js>
+链接: <https://i.mazey.net/lib/lodash/4.17.21/lodash.min.js>
 
-代码：
+代码:
 
 ```html
 <script type="text/javascript" src="//i.mazey.net/lib/lodash/4.17.21/lodash.min.js"></script>
 ```
 
-英文官方文档：<https://lodash.com/>
+英文官方文档: <https://lodash.com/>
 
-中文非官方文档：<https://www.lodashjs.com/>
+中文非官方文档: <https://www.lodashjs.com/>
 
 ## Axios
 
-链接：<https://i.mazey.net/lib/axios/1.4.0/axios.min.js>
+链接: <https://i.mazey.net/lib/axios/1.4.0/axios.min.js>
 
-代码：
+代码:
 
 ```html
 <script type="text/javascript" src="//i.mazey.net/lib/axios/1.4.0/axios.min.js"></script>
 ```
 
-官方文档：<https://axios-http.com/docs/intro>
+官方文档: <https://axios-http.com/docs/intro>
 
 ## vConsole
 
-JavaScript 链接：<https://i.mazey.net/lib/vconsole/3.15.0/vconsole.min.js>
+JavaScript 链接: <https://i.mazey.net/lib/vconsole/3.15.0/vconsole.min.js>
 
-代码：
+代码:
 
 ```html
 <script src="//i.mazey.net/lib/vconsole/3.15.0/vconsole.min.js"></script>
@@ -172,27 +172,27 @@ JavaScript 链接：<https://i.mazey.net/lib/vconsole/3.15.0/vconsole.min.js>
 </script>
 ```
 
-官方文档：<https://github.com/Tencent/vConsole>
+官方文档: <https://github.com/Tencent/vConsole>
 
 ## Font Awesome
 
-CSS 链接：<https://i.mazey.net/lib/fontawesome/5.15.4/css/all.css>
+CSS 链接: <https://i.mazey.net/lib/fontawesome/5.15.4/css/all.css>
 
-代码：
+代码:
 
 ```html
 <link type="text/css" href="//i.mazey.net/lib/fontawesome/5.15.4/css/all.css" rel="stylesheet" />
 ```
 
-官方文档：<https://fontawesome.com/>
+官方文档: <https://fontawesome.com/>
 
 ## IE 兼容
 
-IE 支持 HTML5：<https://i.mazey.net/lib/html5shiv/3.7.3/html5shiv.min.js>
+IE 支持 HTML5: <https://i.mazey.net/lib/html5shiv/3.7.3/html5shiv.min.js>
 
-IE 支持 CSS3：<https://i.mazey.net/lib/respond/1.4.2/respond.min.js>
+IE 支持 CSS3: <https://i.mazey.net/lib/respond/1.4.2/respond.min.js>
 
-代码：
+代码:
 
 ```html
 <!--[if lt IE 9]>
@@ -203,21 +203,21 @@ IE 支持 CSS3：<https://i.mazey.net/lib/respond/1.4.2/respond.min.js>
 
 ## Sha1
 
-JavaScript 链接：<https://i.mazey.net/lib/encode/js-sha1/0.6.0/sha1.min.js>
+JavaScript 链接: <https://i.mazey.net/lib/encode/js-sha1/0.6.0/sha1.min.js>
 
-代码：
+代码:
 
 ```html
 <script type="text/javascript" src="//i.mazey.net/lib/encode/js-sha1/0.6.0/sha1.min.js"></script>
 ```
 
-官方文档：<https://github.com/emn178/js-sha1>
+官方文档: <https://github.com/emn178/js-sha1>
 
 ## Zepto
 
-JavaScript 链接：<https://i.mazey.net/lib/zepto/default/zepto.min.js>
+JavaScript 链接: <https://i.mazey.net/lib/zepto/default/zepto.min.js>
 
-代码：
+代码:
 
 ```html
 <script type="text/javascript" src="//i.mazey.net/lib/zepto/default/zepto.min.js"></script>
@@ -225,15 +225,15 @@ JavaScript 链接：<https://i.mazey.net/lib/zepto/default/zepto.min.js>
 
 ## Mazey
 
-JavaScript 链接：<https://i.mazey.net/lib/mazey/latest/mazey.min.js>
+JavaScript 链接: <https://i.mazey.net/lib/mazey/latest/mazey.min.js>
 
-代码：
+代码:
 
 ```html
 <script type="text/javascript" src="//i.mazey.net/lib/mazey/latest/mazey.min.js"></script>
 ```
 
-官方文档：<https://i.mazey.net/mazey/docs/index.html>
+官方文档: <https://i.mazey.net/mazey/docs/index.html>
 
 <!-- Official - End -->
 
@@ -241,11 +241,11 @@ JavaScript 链接：<https://i.mazey.net/lib/mazey/latest/mazey.min.js>
 
 ## Confluence
 
-CSS 链接：<https://i.mazey.net/style/lib/confluence.css>
+CSS 链接: <https://i.mazey.net/style/lib/confluence.css>
 
-JavaScript 链接：<https://i.mazey.net/polestar/lib/confluence.js>
+JavaScript 链接: <https://i.mazey.net/polestar/lib/confluence.js>
 
-代码：
+代码:
 
 ```html
 <link type="text/css" href="//i.mazey.net/style/lib/confluence.css" rel="stylesheet" />
@@ -254,11 +254,11 @@ JavaScript 链接：<https://i.mazey.net/polestar/lib/confluence.js>
 
 ## Tiny
 
-CSS 链接：<https://i.mazey.net/style/lib/tiny.css>
+CSS 链接: <https://i.mazey.net/style/lib/tiny.css>
 
-JavaScript 链接：<https://i.mazey.net/polestar/lib/tiny.js>
+JavaScript 链接: <https://i.mazey.net/polestar/lib/tiny.js>
 
-代码：
+代码:
 
 ```html
 <link type="text/css" href="//i.mazey.net/style/lib/tiny.css" rel="stylesheet" />
@@ -270,7 +270,7 @@ JavaScript 链接：<https://i.mazey.net/polestar/lib/tiny.js>
 <!-- omit from toc -->
 ## 附录
 
-本文档地址：<https://blog.mazey.net/cdn>
+本文档地址: <http://blog.mazey.net/5688.html>
 
 <!-- omit from toc -->
 ## Deploy
