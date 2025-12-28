@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>pong: /lib/</title>
+    <title>Health Check</title>
     <style>
         * {
             margin: 0;
@@ -12,223 +12,93 @@
         }
 
         body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            color: #333;
-            background-color: #f4f4f4;
-        }
-
-        header {
-            background-color: #2c3e50;
-            color: white;
-            text-align: center;
-            padding: 2rem 0;
-        }
-
-        header h1 {
-            margin-bottom: 0.5rem;
-        }
-
-        nav {
-            background-color: #34495e;
-            padding: 1rem;
-        }
-
-        nav ul {
-            list-style: none;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background:  linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
             display: flex;
             justify-content: center;
-            gap: 2rem;
-        }
-
-        nav a {
-            color: white;
-            text-decoration: none;
-            font-weight: bold;
-        }
-
-        nav a:hover {
-            text-decoration: underline;
-        }
-
-        main {
-            max-width: 1200px;
-            margin:  2rem auto;
-            padding: 0 1rem;
+            align-items: center;
+            padding: 20px;
         }
 
         .container {
-            background-color: white;
-            padding: 2rem;
-            border-radius: 8px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-            margin-bottom: 2rem;
-        }
-
-        h2 {
-            color: #2c3e50;
-            margin-bottom: 1rem;
-        }
-
-        .features {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 1.5rem;
-            margin-top: 1. 5rem;
-        }
-
-        .feature-card {
-            background-color: #ecf0f1;
-            padding: 1.5rem;
-            border-radius: 5px;
-            border-left: 4px solid #3498db;
-        }
-
-        .feature-card h3 {
-            color: #2c3e50;
-            margin-bottom: 0.5rem;
-        }
-
-        footer {
-            background-color: #2c3e50;
-            color: white;
-            text-align: center;
-            padding:  1. 5rem 0;
-            margin-top: 3rem;
-        }
-
-        table {
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            padding: 40px;
+            max-width: 500px;
             width: 100%;
-            border-collapse: collapse;
-            margin-top: 1rem;
+            text-align: center;
         }
 
-        table th,
-        table td {
-            padding: 0.75rem;
-            text-align: left;
-            border-bottom: 1px solid #ddd;
+        h1 {
+            color: #333;
+            margin-bottom: 30px;
+            font-size: 28px;
         }
 
-        table th {
-            background-color: #3498db;
-            color: white;
+        .info {
+            background: #f7f7f7;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 15px;
         }
 
-        table tr:hover {
-            background-color: #f5f5f5;
+        .info p {
+            color: #555;
+            font-size: 16px;
+            margin-bottom:  10px;
         }
 
-        .button {
+        .info p:last-child {
+            margin-bottom: 0;
+        }
+
+        strong {
+            color: #667eea;
+            font-weight:  600;
+        }
+
+        .status {
             display: inline-block;
-            background-color: #3498db;
-            color: white;
-            padding: 0.75rem 1.5rem;
-            text-decoration: none;
-            border-radius: 5px;
-            margin-top: 1rem;
+            background: #10b981;
+            color:  white;
+            padding: 8px 20px;
+            border-radius: 20px;
+            font-weight: 600;
         }
 
-        .button:hover {
-            background-color: #2980b9;
+        .pulse {
+            display: inline-block;
+            width: 12px;
+            height: 12px;
+            background: #10b981;
+            border-radius: 50%;
+            margin-right:  8px;
+            animation:  pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% {
+                opacity: 1;
+            }
+            50% {
+                opacity: 0.5;
+            }
         }
     </style>
 </head>
 <body>
-    <header>
-        <h1>Static Website Test</h1>
-        <p>A simple HTML page without JavaScript</p>
-    </header>
-
-    <nav>
-        <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#features">Features</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
-
-    <main>
-        <section id="home" class="container">
-            <h2>Welcome to Our Static Website</h2>
-            <p>This is a simple HTML page designed for testing static websites without any JavaScript.  It demonstrates basic HTML structure and CSS styling.</p>
-            <a href="#features" class="button">Learn More</a>
-        </section>
-
-        <section id="about" class="container">
-            <h2>About This Page</h2>
-            <p>This page includes various HTML elements to help you test your static website deployment: </p>
-            <ul style="margin-left: 2rem; margin-top: 1rem;">
-                <li>Semantic HTML5 structure</li>
-                <li>CSS styling with responsive design</li>
-                <li>Navigation menu</li>
-                <li>Tables and lists</li>
-                <li>No JavaScript dependencies</li>
-            </ul>
-        </section>
-
-        <section id="features" class="container">
-            <h2>Features</h2>
-            <div class="features">
-                <div class="feature-card">
-                    <h3>Pure HTML</h3>
-                    <p>Built with semantic HTML5 markup for better accessibility and SEO.</p>
-                </div>
-                <div class="feature-card">
-                    <h3>CSS Styling</h3>
-                    <p>Styled with modern CSS including flexbox and grid layouts.</p>
-                </div>
-                <div class="feature-card">
-                    <h3>Responsive Design</h3>
-                    <p>Adapts to different screen sizes for optimal viewing experience.</p>
-                </div>
-                <div class="feature-card">
-                    <h3>No JavaScript</h3>
-                    <p>Works perfectly without any JavaScript, ensuring fast load times.</p>
-                </div>
-            </div>
-        </section>
-
-        <section id="contact" class="container">
-            <h2>Sample Data Table</h2>
-            <table>
-                <thead>
-                    <tr>
-                        <th>Item</th>
-                        <th>Description</th>
-                        <th>Status</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Test 1</td>
-                        <td>Basic HTML structure</td>
-                        <td>✓ Complete</td>
-                    </tr>
-                    <tr>
-                        <td>Test 2</td>
-                        <td>CSS styling</td>
-                        <td>✓ Complete</td>
-                    </tr>
-                    <tr>
-                        <td>Test 3</td>
-                        <td>Responsive layout</td>
-                        <td>✓ Complete</td>
-                    </tr>
-                    <tr>
-                        <td>Test 4</td>
-                        <td>No JavaScript required</td>
-                        <td>✓ Complete</td>
-                    </tr>
-                </tbody>
-            </table>
-        </section>
-    </main>
-
-    <footer>
-        <p>&copy; 2025 Static Website Test. All rights reserved.</p>
-        <p>Created by @chengchuu</p>
-    </footer>
+    <div class="container">
+        <h1>Website Health Check</h1>
+        <div class="info">
+            <p>Last Updated: </p>
+            <p><strong>2025-12-28 12:59:00</strong></p>
+        </div>
+        <div class="info">
+            <p>Status: </p>
+            <p><span class="pulse"></span><span class="status">OK</span></p>
+        </div>
+    </div>
 </body>
 </html>
