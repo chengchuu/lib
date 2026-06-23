@@ -6,6 +6,7 @@
 
 - [jQuery](#jquery)
 - [Bootstrap 3.x](#bootstrap-3x)
+- [Bootstrap 5.x](#bootstrap-5x)
 - [Vue 2.x](#vue-2x)
 - [Vuex](#vuex)
 - [Layer](#layer)
@@ -64,6 +65,21 @@ JavaScript 链接: <https://i.mazey.net/lib/bootstrap/3.4.1/js/bootstrap.min.js>
 英文官方文档: <https://getbootstrap.com/docs/3.4/>
 
 中文非官方文档: <https://v3.bootcss.com/>
+
+## Bootstrap 5.x
+
+CSS 链接: <https://i.mazey.net/lib/bootstrap/5.3.8/css/bootstrap.min.css>
+
+JavaScript 链接: <https://i.mazey.net/lib/bootstrap/5.3.8/js/bootstrap.bundle.min.js>
+
+代码:
+
+```html
+<link type="text/css" href="//i.mazey.net/lib/bootstrap/5.3.8/css/bootstrap.min.css" rel="stylesheet" />
+<script type="text/javascript" src="//i.mazey.net/lib/bootstrap/5.3.8/js/bootstrap.bundle.min.js"></script>
+```
+
+英文官方文档: <https://getbootstrap.com/docs/5.3/>
 
 ## Vue 2.x
 
