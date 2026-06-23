@@ -79,6 +79,8 @@ JavaScript 链接: <https://i.mazey.net/lib/bootstrap/5.3.8/js/bootstrap.bundle.
 <script type="text/javascript" src="//i.mazey.net/lib/bootstrap/5.3.8/js/bootstrap.bundle.min.js"></script>
 ```
 
+英文官方文档: <https://getbootstrap.com/docs/5.3/>
+
 ## Vue 2.x
 
 链接: <https://i.mazey.net/lib/vue/2.6.12/vue.min.js>
